@@ -1,34 +1,55 @@
-# WED5112_Part-2
+# WED5112_Part
 
-# Ocean Delights - Seafood Restaurant Website
+# Sweet Cravings Bakery Website
 
-## Project Overview
-This project is a simple **2-page seafood restaurant website** created using **HTML and CSS**.  
-It demonstrates basic web development concepts such as navigation, images, lists, and styling.
+## Overview
+This project is a simple, responsive website for **Sweet Cravings Bakery**, showcasing the bakery's story, products, locations, and contact information. The site is designed to provide visitors with an engaging experience and easy navigation to learn about the bakery and make inquiries or orders.
 
-The website contains:
-- **index.html**: A food menu with categorized items (Appetizers, Main Dishes, Beverages).
-- **gallery.html**: A gallery showcasing seafood dish images.
-- **style.css**: A stylesheet that controls the look and feel of both pages.
-- **images/**: A folder containing the logo and dish images.
+## Features
+- **Homepage:** Welcome message with hero image, brief introduction, and calls to action.
+- **About Us:** Bakery history, mission, vision, and team info.
+- **Products:** List and images of baked goods offered.
+- **Locations:** Details of multiple bakery branches, including addresses and embedded maps.
+- **Contact:** Contact form, social media links, and contact details.
 
----
+## Technologies Used
+- HTML5
+- CSS3
+- Google Fonts
+- Font Awesome (for icons)
+- Free stock images from Unsplash and Pexels
 
-## How the Website Was Created
+## Folder Structure
+```
+/project-root
+│
+├── index.html            # Home page
+├── about.html            # About Us page
+├── products.html         # Products page
+├── location.html         # Locations page
+├── contact.html          # Contact page
+│
+├── css/                  # Stylesheet
+│   └── style.css
+│
+├── images/               # Store all images here
+│   └── ...               # Bakery images, icons, etc.
+│
+└── README.md             # This README file
+```
 
-1. **HTML Structure**
-   - The project includes two pages (`index.html` and `gallery.html`).
-   - Each page has a **header** with a logo and navigation links, a **main** section for content, and a **footer**.
-   - The menu (`index.html`) uses HTML lists (`<ul>` and `<li>`) to organize food items into categories.
-   - The gallery (`gallery.html`) uses the `<img>` tag to display seafood images inside a grid layout.
+## How to Use
+1. Clone or download the project files.
+2. Open any `.html` file in your preferred web browser to view the website.
+3. Customize content and images as needed to suit your bakery.
 
-2. **Images**
-   - All images (logo, dishes) are stored in the `images/` folder.
-   - Example: `images/logo.png`, `images/Garlic-Butter-Shrimp-recipe.jpg`
+## Credits
+- Images sourced from [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com).
+- Icons from [Font Awesome](https://fontawesome.com).
+- Fonts from [Google Fonts](https://fonts.google.com).
 
-3. **Navigation**
-   - Both pages include a navigation bar (`<nav>`) that links to **Menu** and **Gallery**.
-   - This allows users to move between pages easily.
+## Contact
+For further updates or questions, please contact: [Your Email Address Here]
 
 ---
 
@@ -69,36 +90,15 @@ All styles are defined in **style.css**, which is linked in the `<head>` section
 
 ---
 
-## Folder Structure
-
-```
-OceanDelights/
-│
-├── index.html        # Food menu page
-├── gallery.html      # Gallery page with images
-├── style.css         # Stylesheet for both pages
-├── images/           # Logo + food images
-│   ├── logo.png
-│   ├── Garlic-Butter-Shrimp-recipe.jpg
-│   ├── Grilled-Salmon.jpg
-│   ├── Crab-Cakes.jpg
-│   └── Seafood-Platter.jpg
-└── README.md         # Documentation
-```
-
----
-
 ## How to Use
 1. Download and extract the project folder.
 2. Open `index.html` in your browser to view the menu page.
-3. Use the navigation bar to switch between **Menu** and **Gallery**.
 
 ---
 
 ## Customization
 - **Colors**: Modify `style.css` to change background or text colors.
-- **Menu Items**: Edit `index.html` to add or remove dishes.
-- **Gallery**: Add new images to the `images/` folder and update `gallery.html`.
+
 
 ## Reference
 Mozilla Developer Network. (2025a) HTML basics. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
