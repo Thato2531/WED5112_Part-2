@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Light ocean blue background */
+    color: #003049;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #0077b6;
+    padding: 15px 20px;
+    color: white;
+}
+
+header img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    border: #e6f7ff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a :visited{
+    text-decoration-color: black;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Gallery grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
